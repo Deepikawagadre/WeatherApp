@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Weatherstyle.css">
+    <script defer src="Weather.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="location" placeholder="Enter city or zip code" aria-label="Location input">
+        <button id="searchBtn" aria-label="Search Weather">Search</button>
+        <div id="weather-info" class="hidden">
+            <h2 id="city"></h2>
+            <img id="icon" src="" alt="Weather Icon">
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+    <footer>
+        <p>Weather data provided by OpenWeather</p>
+    </footer>
+</body>
+</html>
